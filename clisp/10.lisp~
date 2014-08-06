@@ -1,2 +1,0 @@
-(defun sum-primes-below (num)
-  '''Sum all the prime numbers below num'''

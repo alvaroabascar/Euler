@@ -1,2 +1,0 @@
-(define nth-prime (n)
-  (let ((primes ()))

@@ -1,5 +1,0 @@
-(defun load-matrix ()
-  (let ((in (open "11.input" :if-does-not-exist nil))
-	(matrix nil)
-	(row nil))
-    (
