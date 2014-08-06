@@ -1,0 +1,2 @@
+(defun largest-palindrome (n)
+  (let ((largest-num (1- (expt 10 (1+ n)))))

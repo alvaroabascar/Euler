@@ -1,0 +1,2 @@
+(defun multiples-below (num)
+  "Return list of multiples of 3 and 5 below 1000"

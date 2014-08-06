@@ -1,0 +1,10 @@
+(defun pythagorean-triplet-product ()
+  (block outer
+    (loop for a from 0 to 1000 do
+	 (loop for b from 0 to 1000 do
+	      (let ((c (sqrt (+ (expt a 2) (expt b 2)))))
+
+(defun solve ()
+  (format t "Solution: ~d~%" (pythagorean-triplet-product))
+
+(solve)
