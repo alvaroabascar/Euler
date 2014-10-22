@@ -1,0 +1,5 @@
+(defun load-nums ()
+  (let ((in (open "13.input" :if-does-not-exist nil))
+	(nums nil))
+    (when in
+      (loop for line = (read-line in nil) while line 
