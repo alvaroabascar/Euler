@@ -1,0 +1,5 @@
+*.fas$
+*~$
+c/bin/
+clisp/bin/
+clisp/*lib
