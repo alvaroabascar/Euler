@@ -1,6 +1,0 @@
-(defun sequence-length (start-num)
-  (let ((len 0))
-    (labels ((next (num)
-	       (incf len)
-	       (when (/= num 1)
-		 (next
